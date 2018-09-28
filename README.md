@@ -1,5 +1,5 @@
 # pseudo-disassembler-mips
-A binary instruction disassembler written in MIPS Assembly.
+A hexadecimal instruction disassembler written in MIPS Assembly.
 
 This program was an assigntment for my Computer Organization class of 2017/2.
 
