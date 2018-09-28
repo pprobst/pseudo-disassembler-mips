@@ -27,7 +27,7 @@
 # https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats                              
 # https://www.eg.bucknell.edu/~csci320/mips_web/ 											
 # http://alumni.cs.ucr.edu/~vladimir/cs161/mips.html                                           
-# http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html                                 			            	                                               #	
+# http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html                                 	
                                                                                                
 ################################################################################################
 
