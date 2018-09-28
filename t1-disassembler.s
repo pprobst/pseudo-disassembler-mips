@@ -1,34 +1,34 @@
 ##########################################
-### D I S A S S E M B L E R   M I P S  ###
+### D I S A S S E M B L E R   M I P S
 ##########################################
+###############################################################################################
+# disassembler.s               Copyright (C) 2017 pprobst                                      
+# This program is free software under GNU GPL V3 or later version                              
+# see http://www.gnu.org/licences  															   
+#                                                                                              
+#-----------------------															           
+# Assembler:  MARS         																	   
+# Data:       2017 - 10 - 30                                                                   
+#-----------------------																	   
+#	   															                               
+#-----------------------																	   
+#  Descrição: 																				   
+#-----------------------																	   
+# Este programa lê um arquivo binário, com instruções em linguagem de máquina (hexadecimal)    
+# e converte cada instrução em sua equivalente MIPS Assembly, imprimindo cada uma no console   
+# e gravando a mesma em um arquivo texto.  		                                               
+#	                                                                                           
 ################################################################################################
-# disassembler.s               Copyright (C) 2017 pprobst                                      #
-# This program is free software under GNU GPL V3 or later version                              #
-# see http://www.gnu.org/licences  															   #
-#                                                                                              #
-#-----------------------															           #
-# Assembler:  MARS         																	   #
-# Data:       2017 - 10 - 30                                                                   #
-#-----------------------																	   #
-#	   															                               #
-#-----------------------																	   #
-#  Descrição: 																				   #
-#-----------------------																	   #
-# Este programa lê um arquivo binário, com instruções em linguagem de máquina (hexadecimal)    #
-# e converte cada instrução em sua equivalente MIPS Assembly, imprimindo cada uma no console   #
-# e gravando a mesma em um arquivo texto.  		                                               #
-#	                                                                                           #
-################################################################################################
-#							           	   													   #
-#------------------------																	   #
-#  Referências do código: 																	   #
-#------------------------																	   #
-# Computer Organization and Design, 4th Ed, D. A. Patterson and J. L. Hennessy                 #
-# https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats                              #
-# https://www.eg.bucknell.edu/~csci320/mips_web/ 											   #
-# http://alumni.cs.ucr.edu/~vladimir/cs161/mips.html                                           #
-# http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html                                 #			            	                                               #	
-                                                                                               #
+#							           	   													   
+#------------------------																	   
+#  Referências do código: 																	   
+#------------------------																	   
+# Computer Organization and Design, 4th Ed, D. A. Patterson and J. L. Hennessy                 
+# https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats                              
+# https://www.eg.bucknell.edu/~csci320/mips_web/ 											
+# http://alumni.cs.ucr.edu/~vladimir/cs161/mips.html                                           
+# http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html                                 			            	                                               #	
+                                                                                               
 ################################################################################################
 
 
